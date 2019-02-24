@@ -1,16 +1,25 @@
 {
-  "name": "fps-panorama",
+  "name": "fps-panorma",
   "version": "0.2.0",
-  "description": "script for making panoramas from first person shooter game screenshots",
+  "description": "script for taking panoramas in fps games",
   "main": "panorama.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tankcaster/fpsPanorama.git"
+  },
   "author": "Tankcaster",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tankcaster/fpsPanorama/issues"
+  },
+  "homepage": "https://github.com/Tankcaster/fpsPanorama#readme",
   "dependencies": {
     "ffi": "^2.3.0",
     "iohook": "^0.3.1",
+    "jimp": "^0.6.0",
     "screenshot-desktop": "^1.6.0"
   }
 }
