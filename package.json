@@ -1,0 +1,16 @@
+{
+  "name": "fps-panorama",
+  "version": "0.2.0",
+  "description": "script for making panoramas from first person shooter game screenshots",
+  "main": "panorama.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tankcaster",
+  "license": "ISC",
+  "dependencies": {
+    "ffi": "^2.3.0",
+    "iohook": "^0.3.1",
+    "screenshot-desktop": "^1.6.0"
+  }
+}
